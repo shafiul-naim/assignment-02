@@ -28,6 +28,9 @@ nav{
     margin:10px;
     list-style: none;
 }
+.navigation li:hover{
+    background-color: rgba(0, 128, 128, 0.363);
+}
 .navigation li a{
     text-decoration: none;
     color: rgba(24, 9, 9, 0.863);
@@ -193,8 +196,7 @@ nav{
 /* footer */
 
 .footer-container{
-    display: flex;
-    flex-direction: column;
+    
     text-align:center;
     background-color: #0A0826;
     margin:50px;
@@ -221,6 +223,20 @@ nav{
 /* responsive */
 
 @media (max-width:688px) {
+    nav{
+        flex-direction: column;
+    }
+    .navigation{
+        flex-direction: row;
+        
+    }
+    .navigation li{
+        margin:5px;
+    }
+    
+    .navigation li a{
+        padding:0px;
+    }
     .influencer{
         grid-template-columns: 1fr;
         height: fit-content;
@@ -235,12 +251,23 @@ nav{
     .see-more{
         justify-content: center;
     }
+    .contact{
+        grid-template-columns: 1fr;
+    }
     
 }
 
 
 
 @media (min-width:689px) and (max-width:950px) {
+    
+    .navigation li{
+        margin:5px;
+    }
+    
+    .navigation li a{
+        padding:5px;
+    }
     
     .collections{
         grid-template-columns: repeat(2,1fr);
@@ -251,6 +278,8 @@ nav{
     .see-more{
         justify-content: center;
     }
+    .contact{
+        grid-template-columns: 1fr;
+    }
     
 }
-

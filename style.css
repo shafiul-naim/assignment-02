@@ -5,7 +5,9 @@ body{
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Poppins', sans-serif;
     }
-
+.main-container{
+    width:auto;
+}
     /* influencer section css*/
     .container{
         background-color:#FFFFFF;
@@ -115,4 +117,30 @@ body{
         font-size: 15px;
         margin-top: 5px;
         
+    }
+
+
+
+
+    .footer-container{
+        text-align:center;
+        background-color: #0A0826;
+        margin:50px;
+        padding:50px;
+    }
+    .footer-container h3{
+        font-size: 24px;
+        margin-bottom: 3px;
+        color: #FFFFFF;
+    }
+    .footer-container p{
+        font-size: 14px;
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+    .common{
+        margin:0 8px;
+        color: #FFFFFF;
+        background-color: #22213C;
+        font-size: 25px;
     }

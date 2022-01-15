@@ -56,6 +56,63 @@ body{
 
     /* collection css */
 
+    .collection-container{
+        width:1150px;
+        margin:auto;
+        padding-top:30px;
+    }
+    .section-title{
+       color: #18191F;
+       font-size: 30px;
+       text-align: center;
+    }
+    .collection-area{
+        background-color: #F1F1F1;
+    }
     .collections{
         display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap:30px;
+        justify-items: center;
+    }
+    .product{
+        width: 330px;
+        height: 475px;
+        background-color: #FFFFFF; 
+        padding:15px;
+    }
+    .product img{
+       width: 100%;
+    }
+    .product h2{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .product-price{
+        color: #000000;
+        font-size:30px;
+        font-weight: 200;
+    }
+    .product-rating{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .product-rating span{
+        margin-left:8px;
+        font-size: 13px;
+    }
+    .fa-star{
+        color: #FB8200;
+        font-size: 13px;
+    }
+    .fa-star-half-alt{
+        color: #FB8200;
+        font-size: 13px;
+    }
+    .product-info{
+        color: #787885;
+        font-size: 15px;
+        margin-top: 5px;
+        
     }

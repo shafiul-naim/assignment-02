@@ -193,6 +193,8 @@ nav{
 /* footer */
 
 .footer-container{
+    display: flex;
+    flex-direction: column;
     text-align:center;
     background-color: #0A0826;
     margin:50px;
@@ -233,6 +235,7 @@ nav{
     .see-more{
         justify-content: center;
     }
+    
 }
 
 
@@ -248,5 +251,6 @@ nav{
     .see-more{
         justify-content: center;
     }
+    
 }
 

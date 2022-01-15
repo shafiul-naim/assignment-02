@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
+/* common css */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+    /* header css */
 .container{
     max-width: 1200px;
     margin:0 auto;
@@ -34,7 +35,7 @@ nav{
     padding:15px 20px;
   
 }
-
+  /* influencer css */
 .influencer{
     display:grid;
     grid-template-columns: repeat(2,1fr);
@@ -80,7 +81,7 @@ nav{
     padding-left: 8px;
 
 }
-/* collection */
+/* collection css */
 
 .collection-title h2{
     font-size:40px;
@@ -190,6 +191,7 @@ nav{
 }
 
 /* footer */
+
 .footer-container{
     text-align:center;
     background-color: #0A0826;
